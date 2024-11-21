@@ -1,9 +1,9 @@
-package ie.atu.laptop;
+package ie.atu.laptopmanager;
 
 public class Main {
 
     public static void main(String[] args) {
-        System.out.println("Hellow there!");
+        System.out.println("Hello there!");
 
     }
 
