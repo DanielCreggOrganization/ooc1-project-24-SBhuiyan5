@@ -46,23 +46,58 @@ public class Main {
 }
 
     private static void addLaptop(Scanner userInput, List<Laptop> laptops) {
-      // TO DO Auto-generated method stub
-      throw new UnsupportedOperationException("Unimplemented method 'addLaptop'");
+        System.out.println("Enter Serial Number:        ");
+        int serialNumber = userInput.nextInt();
+        System.out.println("Enter Brand:                ");
+        String brand = userInput.next();
+        System.out.println("Enter Price:                ");
+        float price = userInput.nextFloat();
+        System.out.println("Enter isSold:                 ");
+        boolean isSold = userInput.nextBoolean();
+
+        laptops.add(new Laptop(serialNumber, brand, price, isSold));
+        System.out.println("Laptop Added Successfully");
     } 
     
     private static void deleteLaptop(Scanner userInput, List<Laptop> laptops) {
-        // TO DO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'deleteLaptop'");
+        System.out.println("Enter Serial Number of Laptop to Delete:       ");
+        int serialNumber = userInput.nextInt();
+
+        boolean found = false;
+        for (Laptop laptop : laptops) {
+            if (laptop.getSerialNumber() == serialNumber) {
+                laptops.remove(laptop);
+                System.out.println("Laptop with Serial Number " + serialNumber + "has been deleted.");
+                found = true;
+                break;
+            }
+        }
+        if (found) {
+            System.out.println("Laptop with Serial Number " + serialNumber + "has not found.");
+        }
     }
 
     private static void showTotalLaptop(List<Laptop> laptops) {
-        // TO DO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'showTotalLaptop'");
+        System.out.println("Show Total Number of Laptops: " + laptops.size());
     }
 
     private static void searchLaptop(Scanner userInput, List<Laptop> laptops) {
-        // TO DO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'searchLaptop'");
+        System.out.println("Enter the Serial Number of Laptop from the Search:     ");
+        int serialNumber = userInput.nextInt();
+        boolean found = false;
+        for (Laptop laptop : laptops) {
+            if(laptop.getSerialNumber() == serialNumber) {
+                System.out.println("Laptop Found:                                  ");
+                System.out.println("Serial Number:      " + laptop.getSerialNumber());
+                System.out.println("Brand:              " + laptop.getBrand());
+                System.out.println("Price:              " + laptop.getPrice());
+                System.out.println("Is Sold:            " + laptop.getIsSold());
+                found = true;
+                break;
+            }
+        }
+        if (found) {
+            System.out.println("Laptop with Serial Number " + serialNumber + " not found.");    
+        }
     } // end main method
-
 } // end main class
