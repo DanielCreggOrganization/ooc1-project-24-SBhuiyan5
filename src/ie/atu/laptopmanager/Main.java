@@ -1,10 +1,15 @@
 package ie.atu.laptopmanager;
 
 import java.util.Scanner;
+import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
     public static void main(String[] args) {
+        Scanner userInput = a new Scanner(System.in);
+        List<Laptop> laptops = new ArrayList<>();
+        int userSelection = 0;
 
         // Installation Scanner class so we can start reading user input
         Scanner userInput = new Scanner(System.in);
