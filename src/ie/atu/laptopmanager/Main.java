@@ -45,9 +45,14 @@ public class Main {
     } // end while
 }
 
-    private static void searchLaptop(Scanner userInput, List<Laptop> laptops) {
+    private static void addLaptop(Scanner userInput, List<Laptop> laptops) {
+      // TO DO Auto-generated method stub
+      throw new UnsupportedOperationException("Unimplemented method 'addLaptop'");
+    } 
+    
+    private static void deleteLaptop(Scanner userInput, List<Laptop> laptops) {
         // TO DO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'searchLaptop'");
+        throw new UnsupportedOperationException("Unimplemented method 'deleteLaptop'");
     }
 
     private static void showTotalLaptop(List<Laptop> laptops) {
@@ -55,14 +60,9 @@ public class Main {
         throw new UnsupportedOperationException("Unimplemented method 'showTotalLaptop'");
     }
 
-    private static void deleteLaptop(Scanner userInput, List<Laptop> laptops) {
+    private static void searchLaptop(Scanner userInput, List<Laptop> laptops) {
         // TO DO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'deleteLaptop'");
-    }
-
-    private static void addLaptop(Scanner userInput, List<Laptop> laptops) {
-        // TO DO Auto-generated method stub
-        throw new UnsupportedOperationException("Unimplemented method 'addLaptop'");
+        throw new UnsupportedOperationException("Unimplemented method 'searchLaptop'");
     } // end main method
 
 } // end main class
