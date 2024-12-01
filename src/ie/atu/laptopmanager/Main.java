@@ -36,13 +36,33 @@ public class Main {
         }   else if (userSelection == 4) {   
             searchLaptop(userInput, laptops);
         }   else if (userSelection == 5) {
-            System.out.println("The Application Is Now Closing, Thank You!") // Close the User Input Scanner
+        System.out.println("The Application Is Now Closing, Thank You!") // Close the User Input Scanner
             userInput.close();
             break; // Break out of display menu infinite loop
         }   else {
             System.out.println("Invalid! Please Select The Options From 1 to 5, Thank You!");
-                } // end it    
-            } // end while
-        } // end main method
+        } // end it    
+    } // end while
+}
 
-     } // end main class
+    private static void searchLaptop(Scanner userInput, List<Laptop> laptops) {
+        // TO DO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'searchLaptop'");
+    }
+
+    private static void showTotalLaptop(List<Laptop> laptops) {
+        // TO DO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'showTotalLaptop'");
+    }
+
+    private static void deleteLaptop(Scanner userInput, List<Laptop> laptops) {
+        // TO DO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'deleteLaptop'");
+    }
+
+    private static void addLaptop(Scanner userInput, List<Laptop> laptops) {
+        // TO DO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'addLaptop'");
+    } // end main method
+
+} // end main class
