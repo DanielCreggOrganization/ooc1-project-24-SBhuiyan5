@@ -19,7 +19,7 @@ public class Main {
         System.out.println("####################################");
         System.out.println("(1) Add a Laptop.");
         System.out.println("(2) Delete a Laptop.");
-        System.out.println("(3)Show total Laptops by Serial Number.");
+        System.out.println("(3)Show total Number of Laptops.");
         System.out.println("(4)Search for a Laptop by Serial Number.");
         System.out.println("(5) Quit.");
         System.out.println("Select an option from 1 to 5 and press Enter.");
@@ -36,7 +36,7 @@ public class Main {
         }   else if (userSelection == 4) {   
             searchLaptop(userInput, laptops);
         }   else if (userSelection == 5) {
-        System.out.println("The Application Is Now Closing, Thank You!") // Close the User Input Scanner
+        System.out.println("The Application Is Now Closing, Thank You!"); // Close the User Input Scanner
             userInput.close();
             break; // Break out of display menu infinite loop
         }   else {
