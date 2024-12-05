@@ -2,8 +2,8 @@
 # OOC1 Project
 
 **Title:** Items Application Manager  
-**Name:** Patrick Murphy  
-**Student ID:** G00123456  
+**Name:** Sabirina Bhuiyan  
+**Student ID:** G00416931  
 
 ## Application Function
 
