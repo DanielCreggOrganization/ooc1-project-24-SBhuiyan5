@@ -9,10 +9,10 @@ public class Laptop {
     private boolean isSold;
 
     // Constructor
-    public Laptop(int serialNumber, String brand, float price, boolean isSold){
+    public Laptop(int serialNumber, String brand, double price, boolean isSold){
         this.serialNumber = serialNumber;
         this.brand = brand;
-        this.price = price;
+        this.price = (float) price;
         this.isSold = isSold;
     }
 
