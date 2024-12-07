@@ -16,44 +16,35 @@ public class Laptop {
         this.isSold = isSold;
     }
 
-    public Laptop(int i, String string, int j) {
-        //TODO Auto-generated constructor stub
-    }
+public int getSerialNumber() {
+    return this.serialNumber;
+}
 
-    public Laptop(int serialNumber2, String string, int price2, boolean isSold2) {
-        //TODO Auto-generated constructor stub
-    }
+public String getBrand() {
+    return this.brand;
+}
 
-    // Getter and Setter Methods
-    public int getSerialNumber() {
-        return this.serialNumber;
-    }
+public Float getPrice() {
+    return this.price;
+}
 
-    public String getBrand() {
-        return this.brand;
-    }
+public Boolean getIsSold() {
+    return this.isSold;
+}
 
-    public float getPrice() {
-        return this.price;
-    }
+public void setSerialNumber(int serialNumber) {
+    this.serialNumber = serialNumber;
+}
 
-    public boolean getIsSold() {
-        return this.isSold;
-    }
+public void setBrand(String brand) {
+    this.brand = brand;
+}
 
-    public void setSerialNumber(int serialNumber) {
-        this.serialNumber = serialNumber;
-    }
+public void setPrice(float price) {
+    this.price = price;
+}
 
-    public void setBrand(String brand) {
-        this.brand = brand;
-    }
-
-    public void setPrice(float price) {
-        this.price = price;
-    }
-
-    public void setisSold(boolean isSold) {
-        this.isSold = isSold;
-    }
+public void setIsSold(boolean isSold) {
+    this.isSold = isSold;
+}
 }
