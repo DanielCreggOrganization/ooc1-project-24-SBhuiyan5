@@ -1,48 +1,17 @@
 package ie.atu.laptopmanager; // package declaration
 
-public class Laptop { // class declaration
-
-    // Instance Variables
-    private int serialNumber; // Unique ID
-    private String brand; // Brand Name
-    private float price; // Laptop Price
-    private boolean isSold; // How Much Is Sold Or Not
+public class Laptop extends Device { // class declaration
+    private boolean isSold; // specific attribute
 
     // Constructor
-    public Laptop(int serialNumber, String brand, double price, boolean isSold){
-        this.serialNumber = serialNumber; // Assigns Serial Number to Instance Variable (int)
-        this.brand = brand; // Assigns Brand to Instance Variable (String)
-        this.price = (float) price; // Changes "Price" from double to float 
+    public Laptop(int serialNumber, String brand, float price, boolean isSold){
+        super(serialNumber, brand, price); // calls parent class constructor
         this.isSold = isSold; // Assigns isSold to Instance Variable (boolean)
     }
 
-// Getter and Setter Methods
-public int getSerialNumber() {
-    return this.serialNumber;
-}
-
-public String getBrand() {
-    return this.brand;
-}
-
-public Float getPrice() {
-    return this.price;
-}
-
-public Boolean getIsSold() {
-    return this.isSold;
-}
-
-public void setSerialNumber(int serialNumber) {
-    this.serialNumber = serialNumber;
-}
-
-public void setBrand(String brand) {
-    this.brand = brand;
-}
-
-public void setPrice(float price) {
-    this.price = price;
+// Getter and Setter Methods for isSold
+public boolean getIsSold() {
+    return isSold;
 }
 
 public void setIsSold(boolean isSold) {
