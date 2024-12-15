@@ -36,9 +36,4 @@ public float getPrice() {
 public void setPrice(float price) {
     this.price = price;
 }
-
-public static void add(Laptop laptop) {
-    // TODO Auto-generated method stub
-    throw new UnsupportedOperationException("Unimplemented method 'add'");
-}
 }
