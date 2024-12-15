@@ -5,13 +5,16 @@ import java.util.List; // imports list interface for functionality
 
 public class LaptopTest { // class declaration
     public static void main(String[] args) { // main method
-        List<Laptop> testLaptops = new ArrayList<>(); // list created to store laptop objects
-        // new laptop objects added to instance variables
-        testLaptops.add(new Laptop(101, "Asus", 500.00, false)); 
-        testLaptops.add(new Laptop(102, "HP", 300.00, true));
+        List<Device> devices = new ArrayList<>(); // add laptop objects (polymorphism)
 
-        // prints total number of laptops within the list
-        System.out.println("Total Number of Laptops: " + testLaptops.size());
+        // add laptop objects to device list
+        devices.add(new Laptop(101, "Asus", 500.00f, false));
+        devices.add(new Laptop(102, "HP", 300.00f, true));
+
+        // itterate through the devices
+        for (Device device : devices) {
+            System.out.println("Device: " + device.getBrand() + ", Price: " + device.getPrice());
+        }
     }
 
 }
