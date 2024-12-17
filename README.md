@@ -1,13 +1,13 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=17263122)
 # OOC1 Project
 
-**Title:** Items Application Manager  
+**Title:** Laptop Application Manager  
 **Name:** Sabirina Bhuiyan  
 **Student ID:** G00416931  
 
 ## Application Function
 
-Discuss what the application does.
+The main.java file is like the entry point for the rest of the files, I've made a very basic menu using the while loop function which allows users to see a few different options, like for example, I got those options, to add, delete, check total number, search by serial number and to quit the application. The menu stays as a loop until the user selects the quit option.
 
 ## Running the Application
 
@@ -50,3 +50,6 @@ What did you not get finished? Discuss the issues you faced when creating your a
 Provide links to resources used:
 
 * [Tutorialspoint](https://www.tutorialspoint.com/java/) - Java Tutorials site I found helpful
+  [W3schools]     (https://www.w3schools.com/java/)
+  [GeeksforGeeks] (https://www.geeksforgeeks.org/java/)
+  
