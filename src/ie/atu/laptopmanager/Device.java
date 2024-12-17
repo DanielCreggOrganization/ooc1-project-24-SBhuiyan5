@@ -36,4 +36,10 @@ public float getPrice() {
 public void setPrice(float price) {
     this.price = price;
 }
+
+public void displayDetails() {
+    System.out.println("Serial Number: " + serialNumber);
+    System.out.println("Brand: " + brand);
+    System.out.println("Price: " + price);
+}
 }

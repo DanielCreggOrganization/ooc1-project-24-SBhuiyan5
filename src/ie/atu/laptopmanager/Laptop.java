@@ -17,4 +17,9 @@ public boolean getIsSold() {
 public void setIsSold(boolean isSold) {
     this.isSold = isSold;
 }
+
+public void displayDetails() {
+    super.displayDetails();
+    System.out.println("Is Sold: " + isSold);
+}
 }
