@@ -18,6 +18,7 @@ public void setIsSold(boolean isSold) {
     this.isSold = isSold;
 }
 
+// overriden for addition info
 public void displayDetails() {
     super.displayDetails();
     System.out.println("Is Sold: " + isSold);
