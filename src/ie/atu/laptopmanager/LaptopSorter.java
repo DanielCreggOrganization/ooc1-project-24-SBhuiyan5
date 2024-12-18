@@ -5,9 +5,10 @@ import java.util.Comparator; // imports
 import java.util.Collections; // imports 
 
 public class LaptopSorter {
-    public static void sortByBrand(ArrayList<Laptop> laptops) {
-        if (laptop.isEmpty()) {
-            System.out.println("No Laptops Sorted by Brand")
+    private static ArrayList<Laptop> laptop;
+        public static void sortByBrand(ArrayList<Laptop> laptops) {
+            if (laptop.isEmpty()) {
+            System.out.println("No Laptops Sorted by Brand");
             return;
         }
 
@@ -17,7 +18,7 @@ public class LaptopSorter {
     }
     public static void sortByPrice(ArrayList<Laptop> laptops) {
         if (laptop.isEmpty()) {
-            System.out.println("No Laptops Sorted by Brand")
+            System.out.println("No Laptops Sorted by Brand");
             return;
         }
 
