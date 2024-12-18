@@ -5,8 +5,6 @@ import java.util.ArrayList; // imports ArrayList class to create Arrays
 import java.util.List; // imports list interface for functionality
 
 public class Main { // class declaration
-
-    private static ArrayList<Laptop> laptops;
         public static void main(String[] args) { // main method
             // Installation Scanner class so we can start reading user input
             Scanner userInput = new Scanner(System.in);
