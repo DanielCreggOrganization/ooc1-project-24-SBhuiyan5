@@ -80,6 +80,8 @@ Then we have 'Device.java', this is the base class that represents any type of d
 
 'DeviceManagement.java' is an abstract class that defines the displayDetails method. 'Laptop.java', which is a subclass as mentioned earlier, implement the displayDetails method to display specific details
 
+'LaptopSorter.java' is created so that it can sort the list of laptops based on their brand and price. If the list is empty it prints out a message instead of sorting.
+
 ## Roadblocks and Unfinished Functionality
 
 I wanted to do enhanced features, and when i attempted to i'd have one file right, but when i check other files there is errors, so when i go back to the original files i changed there would be errors in all files, so i ended
@@ -93,7 +95,7 @@ Roadblocks: For the delete method the laptops would not deletefrom the list when
 
 Solution  : Added an iterator to fix this problem.
 
-Unfinished Functionality: I didn't finish the function to sort laptops by brand, price etc. Overall i skipped the enhanced features as it is beyond my personal capability.
+Unfinished Functionality: I didn't finish the function to sort laptops by brand, price etc. However i did go back and attempted something, i don't seem to have any issues when i run the file, so i'm assuming i'm ok with it. Overall, i  attempted my best effort i could and skipped a few of the enhanced features as it is beyond my personal capability.
 
 ## Resources
 
@@ -102,4 +104,8 @@ Provide links to resources used:
 * [Tutorialspoint](https://www.tutorialspoint.com/java/) - Java Tutorials site I found helpful
   [W3schools]     (https://www.w3schools.com/java/)
   [GeeksforGeeks] (https://www.geeksforgeeks.org/java/)
+  [Baeldung]      (https://www.baeldung.com/java-comparator-comparable)
+  [Blog]          (https://blog.devgenius.io/java-comparator-a-step-by-step-tutorial-1ccf9429d180)
+  [Javapoint]     (https://www.javatpoint.com/collections-in-java)
+  [YouTube]       (I forgot what tutorials i watched...)
   
